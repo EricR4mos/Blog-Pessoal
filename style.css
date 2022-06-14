@@ -34,6 +34,17 @@ body {
     }
     
 }
+@media screen and (max-width:600px) {
+
+    #principal {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+
+
+    }
+    
+}
 
 #principal h1 {
     font-size: 40px;
@@ -79,7 +90,7 @@ body {
 
     #secundaria {
         
-        width: 90%;
+    
         
         padding-bottom: 50px;
 
@@ -91,7 +102,10 @@ body {
 @media screen and (max-width:600px) {
 
     #secundaria {
-        margin-left: 20px;
+        margin-left: 1px;
+        
+      
+     
         
        
         
@@ -101,7 +115,6 @@ body {
     }
     
 }
-
 
 
 #secundaria h1 {
