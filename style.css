@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*CORPO*/
+
+body {
+    margin-top: 10px;
+   background-color:rgba(119, 191, 233, 0.877);
+}
+
+
+/*LADO ESQUERDO*/
+
+#principal {
+    float: left;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    width: 56%;
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1300px) {
+
+    #principal {
+        width: 95%;
+        margin-left: 20px;
+        margin-right: 20px;
+
+
+    }
+    
+}
+
+#principal h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+#principal p {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+/* IMAGEM CAPA*/
+
+#imagemcapa {
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/*LADO DIREITO*/
+
+#secundaria {
+    float: left;
+    
+    
+    width: 430px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width:1300px) {
+
+    #secundaria {
+        margin-left: 35%;
+        
+
+
+    }
+    
+}
+@media screen and (max-width:1299px) {
+
+    #secundaria {
+        
+        width: 90%;
+        
+        padding-bottom: 50px;
+
+
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+    #secundaria {
+        margin-left: 20px;
+        
+       
+        
+        padding-bottom: 50px;
+
+
+    }
+    
+}
+
+
+
+#secundaria h1 {
+    width: 200px;
+    text-align: center;
+    margin-left: 120px;
+    border-bottom: 2px solid red;
+
+
+}
+
+#fotoperfil{
+    
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+#secundaria h2 {
+    
+    margin-left: 100px;
+    
+    margin-top: 20px;
+ 
+}
+
+#secundaria h6 {
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#p1 {
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+#p2 {
+
+    text-align: center;
+    font-size: small;
+    width: 300px;
+    margin-left: 68px;
+    margin-bottom: 20px;
+}
+
+bottom {
+    background-color: pink;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    
+}
+
+#p3 {
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+/*LISTA*/
+
+ul {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+ul li {
+    
+    display: inline;
+    
+}
+
+
+ul li a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 1px;
+}
+
+bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+
+#contato {
+    background-color: white;
+    height: 190px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#contato p {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 30px;
+}
+
+
+input::placeholder {
+    font-size: 18px ;
+    text-align: center;
+    
+}
+
+span {
+    font-size: 20px;
+}
+
+#principal ul {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#principal ul li a {
+    margin-left: 20px;
+}
+
+#principal ul li a img {
+    
+    width: 15px;
+    height: 15px;
+}
+
+#secundaria ul li a {
+    margin-left: 10px;
+    
+}
+
+#borda {
+    margin-top: 0px;
+    height: 200px;
+    width: 100%;
+    
+    border-radius: 10px;
+}
+
+.enviar {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: 20px;
+    border:  gray;
+}
+
+input {
+    margin-top: 20px;
+    margin-left:10px ;
+    padding: 18px;
+    width: 180px;
+    height: 1px;
+    border-radius: 10px ;
+    border:  gray;
+   
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
