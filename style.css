@@ -6,7 +6,7 @@
 }
 body {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     
     background: linear-gradient(72deg, #3DEBB0 1%, #8956f3 99%);
 }
@@ -288,7 +288,7 @@ bottom a {
 
 #conteudo1 .content {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    height: 30%;
+    height: 20%;
     width: 100%;
     
     overflow: hidden;
