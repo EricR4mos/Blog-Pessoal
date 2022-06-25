@@ -35,18 +35,9 @@ ul li a img {
 
 }
 
-#conteudo1 #borda {
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    margin-bottom: -3px;
 
-}
 
-#conteudo1 #imagemcapa,
-#borda {
-    width: 100%;
-}
+
 
 ul {
     margin-left: 100px;
@@ -264,8 +255,9 @@ bottom {
     margin-top: 0px;
     height: 200px;
     width: 100%;
-    
     border-radius: 10px;
+    
+    
 }
 
 span {
