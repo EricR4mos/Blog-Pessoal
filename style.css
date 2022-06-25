@@ -15,7 +15,7 @@ body {
 
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    margin-top: 20px;
 
     
 
@@ -290,7 +290,7 @@ bottom a {
 
 #conteudo1 .content {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    height: 415px;
+    height: 300px;
     width: 100%;
     
     overflow: hidden;
