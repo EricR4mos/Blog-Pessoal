@@ -288,7 +288,7 @@ bottom a {
 
 #conteudo1 .content {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    height: 480px;
+    height: 30%;
     width: 100%;
     
     overflow: hidden;
